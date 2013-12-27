@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/androidarmv6"
            review="review.androidarmv6.org" />
 
   <remote  name="caf"
