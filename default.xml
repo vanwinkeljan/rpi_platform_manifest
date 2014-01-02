@@ -19,9 +19,6 @@
   <remote  name="vanwinkeljan"
            fetch="https://github.com/vanwinkeljan/" />
   
-  <remote  name="kernel"
-           fetch="git://git.kernel.org/pub/scm/linux/kernel/git/" />
-
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -60,7 +57,7 @@
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/raspberrypi/modelb" name="rpi_android_device" remote="vanwinkeljan" revision="master"/>
-  <project path="kernel/raspberrypi/modelb" name="stable/linux-stable.git" remote="kernel" revision="refs/tags/v3.12.6"/>
+  <project path="kernel/raspberrypi/modelb" name="rpi_android_linux" remote="vanwinkeljan" revision="rpi-3.10.y">
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
