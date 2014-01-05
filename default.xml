@@ -16,9 +16,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="vanwinkeljan"
-           fetch="https://github.com/vanwinkeljan/" />
-  
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -32,7 +29,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <!--  <project path="art" name="CyanogenMod/android_art" /> -->
-  <project path="bionic" name="rpi_android_bionic" remote="vanwinkeljan" revision="refs/heads/cm-11.0" groups="pdk" />
+  <project path="bionic" name="vanwinkeljan/rpi_android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="cts" />
@@ -56,8 +53,8 @@
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" />
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/raspberrypi/modelb" name="rpi_android_device" remote="vanwinkeljan" revision="master"/>
-  <project path="kernel/raspberrypi/modelb" name="rpi_android_linux" remote="vanwinkeljan" revision="rpi-3.10.y"/>
+  <project path="device/raspberrypi/modelb" name="vanwinkeljan/rpi_android_device" revision="master"/>
+  <project path="kernel/raspberrypi/modelb" name="vanwinkeljan/rpi_android_linux" revision="rpi-3.10.y"/>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
