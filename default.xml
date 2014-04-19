@@ -54,6 +54,10 @@
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/raspberrypi/modelb" name="vanwinkeljan/rpi_android_device" revision="master"/>
+  <project path="device/raspberrypi/modelb/lib/gralloc" name="vanwinkeljan/rpi_gralloc" revision="master"/>
+  <project path="device/raspberrypi/modelb/lib/hwcomposer" name="vanwinkeljan/rpi_hwcomposer" revision="master"/>
+  <project path="device/raspberrypi/modelb/lib/v3d_library" name="vanwinkeljan/rpi_v3d_library" revision="master"/>
+  <project path="device/raspberrypi/modelb/lib/vmcsx" name="vanwinkeljan/rpi_vmcsx" revision="master"/>
   <project path="kernel/raspberrypi/modelb" name="vanwinkeljan/rpi_android_linux" revision="rpi-3.10.y"/>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
